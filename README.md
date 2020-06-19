@@ -1,5 +1,5 @@
 # HEALTH TRACK 
-![Health Track Logo](/images/logo.png)  
+![Health Track Logo](/pictures/logo-health-track.png)  
   
     
 ##    📋        **Projeto**

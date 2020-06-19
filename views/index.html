@@ -17,35 +17,65 @@
             </a>
         
             <div id="cta-home">
-                <a href="#">ENTRAR</a>
+                <a href="#" data-toggle="modal" data-target="#modalExemplo">ENTRAR</a>
                 <a href="./user-register.html">CADASTRE-SE </a>
             </div>
 
-            <div class="social-medias mr-4">
-                <a href="#"><img src="../pictures/instagram-azul.svg"  width="20" height="20"  alt="Instagram" ></a>
-                <a href="#"><img src="../pictures/facebook-azul.svg"  width="20" height="20"  alt="Facebook" ></a>
-                <a href="#"><img src="../pictures/twitter-azul.png"  width="20" height="20"  alt="Twitter" ></a>
-            </div>
         </header>
         <div class="content">
             <main>
                 <h1>health track</h1>
                 <h3>O controle da sua saúde ao seu alcance</h3>
-                <div class="d-inline-flex">
+                <div class="d-flex justify-content-center">
                     <!-- Botão para acionar modal -->
-                    <button type="button" class=" btn btn-outline-secondary" data-toggle="modal" data-target="#modalExemplo">
+                    <button type="button" class=" btn btn-outline-secondary mr-3" data-toggle="modal" data-target="#modalExemplo">
                         ENTRAR
                     </button>
-                     <button type="button" class=" btn btn-outline-secondary" data-toggle="modal" data-target="#modalExemplo">
+                     <button type="button" class=" btn btn-outline-secondary mr-3" data-toggle="modal" data-target="#modalExemplo">
                        <a href="./user-register.html">CADASTRE-SE </a>
                     </button>
-                    
-
-                    
                 </div>
-                
-                
             </main>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Bem vindo ao health track!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Endereço de email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ex.: email@internet.com.br">
+                                <small id="emailHelp" class="form-text text-muted">Insira seu email cadastrado.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Senha</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                                <small id="passwordHelp" class="form-text text-muted">
+                                    Sua senha deve ter entre 8 e 20 caracteres, os quais devem ser letras e números, sem espaços, caracteres especiais ou emojis.
+                                </small>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Lembre-me</label>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-success btn-lg">Entrar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
