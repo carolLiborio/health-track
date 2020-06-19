@@ -1,0 +1,62 @@
+  
+#page-home{
+    width: 100vw;
+    height: 100vh;
+    background-color: #60EFFF ;
+    background-image: linear-gradient(to right, #00FF87 , transparent);
+}
+
+#page-home .content{
+    width: 90%;
+    height: 100%;
+
+    margin: 0 auto; 
+}
+
+#page-home  header{
+    background-color: #abacac;
+}
+
+#page-home header #cta-home a{
+    text-decoration: none;
+       
+    margin-right: 10px;
+
+    width: 70px;
+    height: 35px;
+    padding: 8px;
+    border: solid 2px #00FF87 ; 
+    border-radius: 8px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#page-home #cta-home a:hover{
+    color: #04d875;
+}
+
+#page-home main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex:1; /* preenchimento do elemento display flex. No caso 1, 
+   preenche na escala 1- tamanho real*/
+   height: 100vh;
+   width: 90vw;
+}
+
+#page-home main h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: bolder;
+    color: #646868;
+    text-align: center;
+}
+
+#page-home main h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #F7FEFC;
+    text-align: center;
+}
