@@ -20,19 +20,24 @@
 #page-home header #cta-home a{
     text-decoration: none;
        
-    margin-right: 10px;
+    margin-right: 8px;
 
-    width: 70px;
     height: 35px;
-    padding: 8px;
+    padding: 5px;
     border: solid 2px #00FF87 ; 
     border-radius: 8px;
-    font-size: 16px;
+    background-color: transparent;
+
+    font-size: 0.8em;
+    font-weight: bolder;
     color: whitesmoke;
+    text-align: center;
 }
 
 #page-home #cta-home a:hover{
-    color: #04d875;
+    color: #04bd67;
+    border: solid 2px #04bd67 ; 
+    background-color: rgb(128,128,128,0.5);
 }
 
 #page-home main{
@@ -59,4 +64,9 @@
     font-weight: bolder;
     color: #F7FEFC;
     text-align: center;
+}
+
+#page-home main button a{
+    text-decoration: none;
+    color: #F7FEFC;
 }

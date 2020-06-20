@@ -10,15 +10,21 @@
 
 </head>
 <body>
-    <div id="page-home">
+    <div id="page-home" class="conteiner-fluid">
         <header class="navbar navbar-expand-lg justify-content-between">
-            <a class="navbar-brand" href="#">
+            <a class=" d-flex navbar-brand" href="#">
                 <img src="../pictures/logo-health-track.png" width="100" height="50" alt="Health Track">
             </a>
         
-            <div id="cta-home">
+            <div id="cta-home" class=" d-sm-flex">
                 <a href="#" data-toggle="modal" data-target="#modalExemplo">ENTRAR</a>
                 <a href="./user-register.html">CADASTRE-SE </a>
+            </div>
+
+            <div class=" d-none d-sm-flex social-media mr-4">
+                <a href="https://twitter.com" target="_self" class="mr-2"><img src="../pictures/twitter-branco.png" alt="Twitter" widht="20" height="20"></a>
+                <a href="https://www.instagram.com/" target="_self" class="mr-2"><img src="../pictures/instagram-branco.svg" alt="Instagram" widht="17" height="17"></a>
+                <a href="https://pt-br.facebook.com/" target="_self" class="mr-2"><img src="../pictures/facebook-branco.svg" alt="Facebook" widht="20" height="20"></a>
             </div>
 
         </header>
@@ -26,12 +32,12 @@
             <main>
                 <h1>health track</h1>
                 <h3>O controle da sua saúde ao seu alcance</h3>
-                <div class="d-flex justify-content-center">
+                <div class=" d-flex justify-content-center mt-4">
                     <!-- Botão para acionar modal -->
-                    <button type="button" class=" btn btn-outline-secondary mr-3" data-toggle="modal" data-target="#modalExemplo">
+                    <button type="button" class=" btn btn-secondary mr-3 " data-toggle="modal" data-target="#modalExemplo">
                         ENTRAR
                     </button>
-                     <button type="button" class=" btn btn-outline-secondary mr-3" data-toggle="modal" data-target="#modalExemplo">
+                     <button type="button" class=" btn btn-secondary mr-3" data-toggle="modal" data-target="#modalExemplo">
                        <a href="./user-register.html">CADASTRE-SE </a>
                     </button>
                 </div>
